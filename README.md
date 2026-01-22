@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 The project includes a robust ERC721 Smart Contract for "Droids" in the `contracts` directory.
 It is built with Foundry and OpenZeppelin.
 
-**Deployed Contract (Base Sepolia):** `0xBd66a5BA947AC0C25443d6a876a4cb6db2ca1aBb`
+**Deployed Contract (Base Sepolia):** `0x977ec0B2c279351D0Dde4a5a18fC9914f07af76B`
 
 ### Setup Contracts
 

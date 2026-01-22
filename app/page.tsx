@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "./page.module.css";
-import { Wallet } from "@coinbase/onchainkit/wallet";
+import WalletWrapper from "../components/WalletWrapper";
 
 export default function Home() {
   return (
@@ -11,8 +11,6 @@ export default function Home() {
           <div className="wallet-container">
             <WalletWrapper
               className="min-w-[90px]"
-              text="Sign in"
-              withWalletAggregator={true}
             />
           </div>
         </div>

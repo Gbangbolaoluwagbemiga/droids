@@ -5,9 +5,17 @@ import { Wallet } from "@coinbase/onchainkit/wallet";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <header className={styles.headerWrapper}>
-        <Wallet />
+    <div className="flex flex-col min-h-screen font-sans dark:bg-background dark:text-white bg-white text-black">
+      <header className="pt-4 pr-4">
+        <div className="flex justify-end">
+          <div className="wallet-container">
+            <WalletWrapper
+              className="min-w-[90px]"
+              text="Sign in"
+              withWalletAggregator={true}
+            />
+          </div>
+        </div>
       </header>
 
       <div className={styles.content}>

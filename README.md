@@ -22,6 +22,7 @@ The project includes a robust ERC721 Smart Contract for "Droids" in the `contrac
 It is built with Foundry and OpenZeppelin.
 
 **Deployed Contract (Base Sepolia):** `0x977ec0B2c279351D0Dde4a5a18fC9914f07af76B`
+**Deployed Contract (Base Mainnet):** `0x6b07b50529b5B684FD7d5A0aFEBe59FB7e4ee5B6`
 
 ### Setup Contracts
 
